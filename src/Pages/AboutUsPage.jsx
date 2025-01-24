@@ -110,7 +110,7 @@ const AboutUsPage = () => {
           </div>
         </div>
       </section>
-      <section className="flex h-[90vh] items-center justify-center py-12">
+      <section className="flex h-screen items-center justify-center py-12">
         <ReactPlayer
           url={aboutusbgvideo}
           loop
@@ -119,7 +119,20 @@ const AboutUsPage = () => {
           height="100%"
           playsinline
           playing
-          className="absolute -z-10"
+          className="absolute -z-10 object-cover"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                },
+                muted: true,
+                playsInline: true,
+              },
+            },
+          }}
         />
         <div className="bg-[#D5632F]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
@@ -132,7 +145,7 @@ const AboutUsPage = () => {
                     WHY CHOICE US
                   </span>
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl  text-white leading-tight">
                   Choose Us for Innovation, Quality, and Tailored Solutions that
                   Drive Your Success.
                 </h1>
@@ -146,9 +159,7 @@ const AboutUsPage = () => {
                     <TbTargetArrow className="w-12 h-12 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-2xl font-serif text-white">
-                      Innovation-Driven:
-                    </h3>
+                    <h3 className="text-2xl  text-white">Innovation-Driven:</h3>
                     <p className="text-white text-lg leading-relaxed">
                       We&apos;re passionate about exploring new solutions to
                       bring creative ideas to life and solve complex problems
@@ -162,7 +173,7 @@ const AboutUsPage = () => {
                     <AiOutlineAim className="w-12 h-12 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-2xl font-serif text-white">
+                    <h3 className="text-2xl  text-white">
                       Uncompromised Quality:
                     </h3>
                     <p className="text-white text-lg leading-relaxed">
@@ -178,7 +189,7 @@ const AboutUsPage = () => {
                     <GiDiamondHard className="w-12 h-12 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-2xl font-serif text-white">
+                    <h3 className="text-2xl  text-white">
                       Customer-Focused Approach:
                     </h3>
                     <p className="text-white text-lg leading-relaxed">
