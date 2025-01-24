@@ -2,7 +2,7 @@ import blogone from "../assets/image/blogs/blogone.png";
 import blogone2 from "../assets/image/blogs/blogone2.png";
 const BlogDetails = () => {
   return (
-    <div className="max-w-7xl mx-auto p-4 flex flex-col md:flex-row gap-8">
+    <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-8 py-[5rem]">
       {/* Main Content Area */}
       <div className="w-full md:w-2/3">
         <img src={blogone} alt="Person using tablet" className="w-full mb-6" />
