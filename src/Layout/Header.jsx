@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { companyDetails } from "../constant";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,18 +17,18 @@ const Header = () => {
         <div className="container mx-auto px-4 flex justify-end items-center">
           {/* <div className="text-sm text-gray-600">Welcome to our website</div> */}
           <div className="hidden md:flex space-x-4 text-sm text-white">
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdEmail />
               {companyDetails.email}
-            </a>
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            </Link>
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdPhone />
               {companyDetails.phone}
-            </a>
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            </Link>
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdLocationOn />
               {companyDetails.address}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -37,31 +38,34 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800">
-            <a href="/">Logo</a>
+            <Link to="/">Logo</Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
-            <a href="/" className="text-gray-600 hover:text-gray-800">
+            <Link to="/" className="text-gray-600 hover:text-gray-800">
               Home
-            </a>
-            <a href="/about-us" className="text-gray-600 hover:text-gray-800">
+            </Link>
+            <Link to="/about-us" className="text-gray-600 hover:text-gray-800">
               About
-            </a>
-            <a href="/services" className="text-gray-600 hover:text-gray-800">
+            </Link>
+            <Link to="/services" className="text-gray-600 hover:text-gray-800">
               Services
-            </a>
-            <a href="/contact-us" className="text-gray-600 hover:text-gray-800">
+            </Link>
+            <Link
+              to="/contact-us"
+              className="text-gray-600 hover:text-gray-800"
+            >
               Contact
-            </a>
-            <a href="/blogs" className="text-gray-600 hover:text-gray-800">
+            </Link>
+            <Link to="/blogs" className="text-gray-600 hover:text-gray-800">
               Blogs
-            </a>
+            </Link>
           </nav>
 
           {/* Call Us Button */}
           <a
-            href="tel:+1234567890"
+            to="tel:+1234567890"
             className="md:flex hidden items-center gap-1 bg-primary text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
           >
             <MdPhone />
@@ -99,36 +103,42 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="mt-4 md:hidden">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               Home
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/about"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               About
-            </a>
-            <a
-              href="/services"
+            </Link>
+            <Link
+              to="/services"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               Services
-            </a>
-            <a
-              href="/contact-us"
+            </Link>
+            <Link
+              to="/contact-us"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               Contact
-            </a>
-            <a
-              href="tel:+1234567890"
+            </Link>
+            <Link
+              to="/blogs"
+              className="block py-2 text-gray-600 hover:text-gray-800"
+            >
+              Blogs
+            </Link>
+            <Link
+              to="tel:+1234567890"
               className="block py-2 text-blue-500 hover:text-blue-600"
             >
               Call Us
-            </a>
+            </Link>
           </nav>
         )}
       </div>

@@ -4,6 +4,8 @@ import AppLayout from "./Layout/AppLayout";
 import Loader from "./components/Loader";
 import { Toaster } from "react-hot-toast";
 import ServiceDetailsPage from "./Pages/ServiceDetailsPage";
+import BlogDetails from "./Pages/BlogDetails";
+import BlogsPage from "./Pages/BlogsPage";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const AboutUsPage = lazy(() => import("./pages/AboutUsPage"));
@@ -53,6 +55,16 @@ const AppRouter = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUsPage />,
+      },
+      {
+        path: "/blogs",
+        element: <BlogsPage />,
+        children: [
+          {
+            path: ":id",
+            element: <BlogDetails />,
+          },
+        ],
       },
       {
         path: "/thank-you",
