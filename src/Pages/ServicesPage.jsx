@@ -1,5 +1,12 @@
+import { Outlet } from "react-router-dom";
+
 const ServicesPage = () => {
-  return <div>ServicesPage</div>;
+  return (
+    <div>
+      {" "}
+      <Outlet />
+    </div>
+  );
 };
 
 export default ServicesPage;
