@@ -7,12 +7,12 @@ import ServiceDetailsPage from "./Pages/ServiceDetailsPage";
 import BlogDetails from "./Pages/BlogDetails";
 import BlogsPage from "./Pages/BlogsPage";
 
-const HomePage = lazy(() => import("./pages/HomePage"));
-const AboutUsPage = lazy(() => import("./pages/AboutUsPage"));
-const ServicePage = lazy(() => import("./pages/ServicesPage"));
-const ContactUsPage = lazy(() => import("./pages/ContactUsPage"));
-const LandingPages = lazy(() => import("./pages/LandingPages"));
-const ThankYouPage = lazy(() => import("./pages/ThankYouPage"));
+const HomePage = lazy(() => import("./Pages/HomePage"));
+const AboutUsPage = lazy(() => import("./Pages/AboutUsPage"));
+const ServicePage = lazy(() => import("./Pages/ServicesPage"));
+const ContactUsPage = lazy(() => import("./Pages/ContactUsPage"));
+const LandingPages = lazy(() => import("./Pages/LandingPages"));
+const ThankYouPage = lazy(() => import("./Pages/ThankYouPage"));
 
 const AppRouter = createBrowserRouter([
   {
