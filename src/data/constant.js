@@ -23,7 +23,6 @@ import gamedevelopmentBannerImage from "../assets/image/services/gamedevelopment
 import customesoftwareMainImage from "../assets/image/services/customesoftware-mainimage.png";
 import customesoftwareSecondImage from "../assets/image/services/customesoftware-secondimage.png";
 import customesoftwareBannerImage from "../assets/image/services/customesoftware-bannerimage.png";
-// console.log()
 export const companyDetails = {
   phone: "+91-XXXXXXXXXX",
   email: "info@sample.com",
