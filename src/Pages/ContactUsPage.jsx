@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { companyDetails } from "../constant";
+import { companyDetails } from "../data/constant";
 
 import contactusimage from "../assets/image/contactusimage.png";
 const ContactUsPage = () => {

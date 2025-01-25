@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { companyDetails } from "../constant";
+import { companyDetails } from "../data/constant";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -49,18 +49,18 @@ const Header = () => {
             <Link to="/about-us" className="text-gray-600 hover:text-gray-800">
               About
             </Link>
-            <Link to="/services" className="text-gray-600 hover:text-gray-800">
+            {/* <Link to="/services" className="text-gray-600 hover:text-gray-800">
               Services
-            </Link>
+            </Link> */}
             <Link
               to="/contact-us"
               className="text-gray-600 hover:text-gray-800"
             >
               Contact
             </Link>
-            <Link to="/blogs" className="text-gray-600 hover:text-gray-800">
+            {/* <Link to="/blogs" className="text-gray-600 hover:text-gray-800">
               Blogs
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Call Us Button */}

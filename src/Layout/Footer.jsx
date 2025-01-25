@@ -1,5 +1,5 @@
 import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { companyDetails } from "../constant";
+import { companyDetails } from "../data/constant";
 import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
 

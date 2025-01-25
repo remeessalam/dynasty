@@ -44,10 +44,9 @@ const AppRouter = createBrowserRouter([
       },
       {
         path: "/services",
-        element: <ServicePage />,
         children: [
           {
-            path: ":id",
+            path: ":service",
             element: <ServiceDetailsPage />,
           },
         ],
@@ -58,7 +57,6 @@ const AppRouter = createBrowserRouter([
       },
       {
         path: "/blogs",
-        element: <BlogsPage />,
         children: [
           {
             path: ":id",

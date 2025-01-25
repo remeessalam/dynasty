@@ -1,21 +1,21 @@
 import servicelayouthelp from "../assets/image/servicelayouthelp.png";
-import aidevelopmentbanner from "../assets/image/services/aidevelopmentbanner.png";
-import aidevelopment from "../assets/image/services/aidevelopment.png";
-import aidevelopment2 from "../assets/image/services/aidevelopment2.png";
 import PageBanner from "../Components/PageBanner";
+import { allServices } from "../data/constant";
+import { Link, useParams } from "react-router-dom";
 export default function ServiceDetailsPage() {
-  const services = [
-    { name: "AI Development", active: true },
-    { name: "Software Development", active: false },
-    { name: "Gaming Development", active: false },
-    { name: "UI UX Designing", active: false },
-    { name: "Content Management", active: false },
-    { name: "Cyber Security", active: false },
-  ];
+  const { service } = useParams();
 
+  const selectedService = allServices.find((obj) => obj.pathname === service);
+
+  if (!selectedService) {
+    return <div>Service not found</div>;
+  }
   return (
     <>
-      <PageBanner page={"AI Development"} bannerImage={aidevelopmentbanner} />
+      <PageBanner
+        page={selectedService.title}
+        bannerImage={selectedService.bannerImage}
+      />
       <div className="container mx-auto px-4 py-[5rem]">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left Sidebar */}
@@ -23,17 +23,18 @@ export default function ServiceDetailsPage() {
             <div className="mb-8">
               <h2 className="font-bold mb-4">Services Category</h2>
               <div className="flex flex-col gap-2">
-                {services.map((service, index) => (
-                  <button
-                    key={index}
+                {allServices.map((obj) => (
+                  <Link
+                    key={obj.id}
+                    to={`/services/${obj.pathname}`}
                     className={`text-left px-4 py-2 rounded transition-colors ${
-                      service.active
+                      obj?.pathname === service
                         ? "bg-[#E86C37] text-white"
                         : "hover:bg-gray-100"
                     }`}
                   >
-                    {service.name}
-                  </button>
+                    {obj.title}
+                  </Link>
                 ))}
               </div>
             </div>
@@ -75,97 +76,59 @@ export default function ServiceDetailsPage() {
             <div className="grid md:grid-cols-1 gap-8">
               <div>
                 <img
-                  src={aidevelopment}
+                  src={selectedService.mainImage}
                   alt="AI Development Illustration"
-                  className="w-full h-auto  rounded-lg"
+                  className="w-full h-auto max-h-[70vh] object-cover rounded-lg"
                 />
               </div>
               <div>
-                <h1 className="text-3xl font-bold mb-6">AI Development</h1>
-                <p className="mb-6">
-                  Artificial Intelligence (AI) Has Revolutionized The Way
-                  Businesses Operate, And At Your Company Name, We Harness The
-                  Power Of AI To Help Drive Business Value. Our AI Development
-                  Services Include Predictive Analytics, Natural Language
-                  Processing (NLP), And Machine Vision, Among Other Advanced
-                  Technologies. These Solutions Enable Businesses To Automate
-                  Processes, Gain Deep Insights, And Make Data-Driven Decisions
-                  That Improve Efficiency And Foster Growth.
-                </p>
+                <h1 className="text-3xl font-bold mb-6">
+                  {selectedService.title}
+                </h1>
+                <p className="mb-6">{selectedService.intro}</p>
                 <h2 className="text-2xl font-bold mb-4">
-                  The Power Of AI In Business
+                  {selectedService?.section1.heading}
                 </h2>
-                <p className="mb-6">
-                  AI Is A Critical Tool In Today&apos;s Business Environment,
-                  And We Tailor Our Solutions To Meet Your Specific Needs.
-                  Whether You&apos;re Aiming To Optimize Operations, Enhance
-                  Customer Interactions, Or Gain A Competitive Edge, Our AI
-                  Applications Are Designed To Support Your Business&apos;s
-                  Objectives By Implementing Machine Learning Algorithms,
-                  Predictive Models, And Intelligent Systems. We Ensure Your
-                  Operations Become Smarter, More Efficient, And More Agile.
-                </p>
+                <p className="mb-6">{selectedService?.section1.content}</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mt-8">
-              <div className="bg-white shadow-lg p-6 rounded-lg">
-                <h3 className="font-bold mb-4">AI Development</h3>
-                <p>
-                  Skilled Professional Experienced in AI And Machine Learning
-                  Technologies.
-                </p>
-              </div>
-              <div className="bg-[#E86C37] text-white p-6 rounded-lg">
-                <h3 className="font-bold mb-4">Cutting-Edge Technology</h3>
-                <p>
-                  Utilize The Latest AI Tools For High-Performance, Scalable
-                  Solutions.
-                </p>
-              </div>
+              {selectedService?.keyHighlights?.map((obj, index) => (
+                <div
+                  key={obj.title}
+                  className={`${
+                    index % 2 === 1 ? `bg-[#E86C37] text-white` : `bg-white`
+                  } shadow-lg p-6 rounded-lg`}
+                >
+                  <h3 className="font-bold mb-4">{obj.title}</h3>
+                  <p>{obj.description}</p>
+                </div>
+              ))}
             </div>
 
             <div className="mt-8">
-              <p className="mb-8">
-                Artificial Intelligence Is Revolutionizing The Way Businesses
-                Make Decisions, Interact With Customers, And Optimize
-                Operations. At [Your Company Name], We Empower Organizations To
-                Harness The Full Potential Of AI, Providing Tailored Solutions
-                That Drive Smarter Decision-Making, Improve Efficiency, And
-                Enhance Customer Experiences.
-              </p>
+              <p className="mb-8">{selectedService?.closingSection?.intro}</p>
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <img
-                    src={aidevelopment2}
+                    src={selectedService.secondImage}
                     alt="Analytics Dashboard"
                     className="w-full h-auto rounded-lg mb-4"
                   />
                 </div>
                 <div className="flex flex-col gap-5">
-                  <div>
-                    <h3 className="font-bold mb-2">Predictive Analytics:</h3>
-                    <p>Forecast Future Trends And Make Proactive Decisions.</p>
-                  </div>
-                  <div>
-                    <h3 className="font-bold mb-2">Intelligent Automation:</h3>
-                    <p>
-                      Automate Visual Tasks Like Quality Control And Facial
-                      Recognition.
-                    </p>
-                  </div>
+                  {selectedService.closingSection.features.map((obj) => (
+                    <div key={obj.name}>
+                      <h3 className="font-bold mb-2">{obj.name}</h3>
+                      <p>{obj.description}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
 
-              <p className="mt-8">
-                If You&apos;re Ready To Take Your Business To The Next Level
-                With AI, Our Team Is Here To Help You Build The Systems That
-                Will Transform Your Data Into A Powerful Asset. Contact Us Today
-                To Learn How Our AI Development Solutions Can Revolutionize The
-                Way You Operate And Compete In Today&apos;s Fast-Paced Digital
-                World.
-              </p>
+              <p className="mt-8">{selectedService?.closingSection?.cta}</p>
             </div>
           </div>
         </div>
