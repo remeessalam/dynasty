@@ -1,5 +1,5 @@
 //services images
-import aidevelopment from "../assets/image/services/aidevelopment-mainimage.png";
+import aidevelopment from "../assets/image/services/aidevelopmentmainimage.png";
 import aidevelopment2 from "../assets/image/services/aidevelopment-secondimage.png";
 import aidevelopmentbanner from "../assets/image/services/aidevelopment-bannerimage.png";
 import vrarMainImage from "../assets/image/services/vrar-mainimage.png";
