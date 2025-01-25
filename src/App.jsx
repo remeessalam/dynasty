@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "./Layout/AppLayout";
-import Loader from "./components/Loader";
+import Loader from "./Components/Loader";
 import { Toaster } from "react-hot-toast";
 import ServiceDetailsPage from "./Pages/ServiceDetailsPage";
 import BlogDetails from "./Pages/BlogDetails";
