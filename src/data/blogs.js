@@ -16,6 +16,9 @@ export const blogs = [
     date: "August 3, 2023",
     author: "Admin",
     title: "How AI is Revolutionizing Business Operations and Decision-Making",
+    displayArticle:
+      "Artificial Intelligence (AI) is no longer just a buzzword; it's a powerful force reshaping industries across the globe, from healthcare to finance. AI is helping businesses make smarter decisions, automate processes, and deliver exceptional customer experiences.",
+
     pathname:
       "How-AI-is-Revolutionizing-Business-Operations-and-Decision-Making",
     introduction:
@@ -37,6 +40,8 @@ export const blogs = [
     author: "Admin",
     title:
       "Why VR & AR Are More Than Just Trends – They’re The Future of Customer Engagement",
+    displayArticle:
+      "Virtual Reality (VR) and Augmented Reality (AR) are changing the way businesses interact with their customers. With these technologies, were now seeing new ways for gaming and entertainment, they have found their way into industries like retail and healthcare.",
     pathname:
       "Why-VR-AR-Are-More-Than-Just-Trends–They’re-The-Future-of-Customer-Engagement",
     introduction:
@@ -56,6 +61,8 @@ export const blogs = [
     date: "August 3, 2023",
     author: "Admin",
     title: "How Blockchain Can Secure Your Business and Drive Efficiency",
+    displayArticle:
+      "Blockchain technology has gained massive attention in recent years, but it's not just a trend—it's a game-changer. Originally developed for cryptocurreny, blockchain is now revolutionizing industries by providing unparalleled security and transparency while driving efficiency in transactions.",
     pathname: "How-Blockchain-Can-Secure-Your-Business-and-Drive-Efficiency",
     introduction:
       "In today's fast-paced, highly interconnected business environment, security and efficiency are two of the most critical factors that determine a company’s success. Businesses must not only protect sensitive data and transactions but also streamline their processes to stay competitive. This is where blockchain technology comes into play. Originally designed as the backbone for cryptocurrencies like Bitcoin, blockchain is rapidly emerging as a powerful tool with far-reaching implications for various industries. But its true potential lies in more than just secure financial transactions—it can fundamentally transform the way businesses operate, providing both enhanced security and greater operational efficiency.",

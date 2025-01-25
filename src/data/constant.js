@@ -1,3 +1,4 @@
+//services images
 import aidevelopment from "../assets/image/services/aidevelopment-mainimage.png";
 import aidevelopment2 from "../assets/image/services/aidevelopment-secondimage.png";
 import aidevelopmentbanner from "../assets/image/services/aidevelopment-bannerimage.png";
@@ -22,6 +23,7 @@ import gamedevelopmentBannerImage from "../assets/image/services/gamedevelopment
 import customesoftwareMainImage from "../assets/image/services/customesoftware-mainimage.png";
 import customesoftwareSecondImage from "../assets/image/services/customesoftware-secondimage.png";
 import customesoftwareBannerImage from "../assets/image/services/customesoftware-bannerimage.png";
+
 export const companyDetails = {
   phone: "+91-XXXXXXXXXX",
   email: "info@sample.com",
@@ -378,5 +380,84 @@ export const allServices = [
       ],
       cta: "Whether you're looking to streamline operations, improve customer interactions, or integrate new technologies, custom software ensures that you have the tools that evolve with your business needs. With its scalability, cost-efficiency, and competitive advantages, custom software is an investment that not only solves today's challenges but also prepares your business for tomorrow's opportunities. At [Your Company Name], we are committed to delivering robust, scalable, and innovative software solutions that empower your business to succeed and stay ahead in an increasingly digital world.",
     },
+  },
+];
+
+export const homePageServices = [
+  {
+    title: "Discovery & Strategy",
+    description:
+      "We collaborate to understand your goals, challenges, and vision, laying the foundation with a clear strategy tailored to your needs.",
+    icon: "BiUserCircle",
+  },
+  {
+    title: "Design & Development",
+    description:
+      "Our experts craft innovative, user-focused designs and develop robust, scalable solutions aligned with your objectives",
+    icon: "FaChartBar",
+  },
+  {
+    title: "Deployment & Support",
+    description:
+      "We ensure seamless implementation, provide ongoing support, and scale solutions as your business grows and evolves",
+    icon: "FaHandshakeAngle",
+  },
+];
+
+export const whyChooseUs = [
+  {
+    id: 1,
+    heading: "Innovation-Driven",
+    desc: "We’re passionate about exploring new solutions to bring creative ideas to life and solve complex problems",
+  },
+  {
+    id: 2,
+    heading: "Uncompromised Quality",
+    desc: "We’re committed to building robust, reliable solutions that are both functional and scalable.",
+  },
+  {
+    id: 3,
+    heading: "Customer-Focused Approach",
+    desc: "Your objectives shape our process, and we work alongside you to ensure every project aligns with your vision.",
+  },
+  {
+    id: 4,
+    heading: "Comprehensive Service",
+    desc: "From ideation to deployment and beyond, we’re here for you at every step of the journey.",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Michelle",
+    rating: 4,
+    text: "Security and transparency are now our strengths. With [Your Company Name]'s blockchain solution, we've been able to streamline our supply chain and secure our transactions in a way that's not only manageable. They helped us implement custom smart contracts and set up a decentralized system that works seamlessly.",
+    avatar:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
+  },
+  {
+    id: 2,
+    name: "Jonathan",
+    rating: 4,
+    text: "They turned our data into a goldmine. [Your Company Name]'s machine learning solution has allowed us to automate and optimize our processes in a way we didn't think was possible. Their team took the time to understand our business, and the results speak for themselves—better accuracy, faster response times, and insights that have really moved the needle for us.",
+    avatar:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
+  },
+  {
+    id: 3,
+    name: "Michelle",
+    rating: 4,
+    text: "Transformational is the word! Working with [Your Company Name] has completely changed how we approach our business decisions. Their team provided models that have given us insights we never knew we needed. We've seen a major improvement in our ROI, and our approach now sets us apart in our market.",
+    avatar:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
+  },
+  {
+    id: 4,
+    name: "Sarah",
+    rating: 5,
+    text: "The implementation exceeded our expectations. The team's attention to detail and commitment to our success made all the difference. We've seen remarkable improvements in our operational efficiency and customer satisfaction scores.",
+    avatar:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
   },
 ];
