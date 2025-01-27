@@ -2,6 +2,7 @@ import { useState } from "react";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import { Link as ScrollLink } from "react-scroll";
 import { companyDetails } from "../../data/constant";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,18 +17,18 @@ const Header = () => {
       <div className="bg-primary py-4">
         <div className="container mx-auto px-4 flex justify-end items-center">
           <div className="hidden md:flex space-x-4 text-sm text-white">
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdEmail />
               {companyDetails.email}
-            </a>
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            </Link>
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdPhone />
               {companyDetails.phone}
-            </a>
-            <a href="#" className="hover:text-primary flex items-center gap-1">
+            </Link>
+            <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdLocationOn />
               {companyDetails.address}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -44,26 +45,37 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
-            <ScrollLink
-              to="home"
-              smooth={true}
-              duration={500}
+            <Link
+              to="/"
+              // smooth={true}
+              // duration={500}
               className="text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Home
-            </ScrollLink>
+            </Link>
             <ScrollLink
               to="about"
               smooth={true}
               duration={500}
+              offset={-170}
               className="text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               About
             </ScrollLink>
             <ScrollLink
+              to="services"
+              smooth={true}
+              duration={500}
+              offset={-170}
+              className="text-gray-600 hover:text-gray-800 cursor-pointer"
+            >
+              Services
+            </ScrollLink>
+            <ScrollLink
               to="contact-us"
               smooth={true}
               duration={500}
+              offset={-200}
               className="text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Contact
@@ -73,7 +85,7 @@ const Header = () => {
           {/* Call Us Button */}
           <a
             href="tel:+1234567890"
-            className="md:flex hidden items-center gap-1 bg-primary text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            className="md:flex hidden items-center gap-1 primary-btn"
           >
             <MdPhone />
             Call Us

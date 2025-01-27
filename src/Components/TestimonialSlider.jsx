@@ -33,16 +33,20 @@ export default function TestimonialSlider() {
   return (
     <div className="px-4 py-16 max-w-7xl mx-auto">
       <div className="text-center mb-12">
-        <p className="text-[#FF6B35] uppercase tracking-wider text-sm font-medium mb-4">
-          OUR TESTIMONIAL
-        </p>
-        <h2 className="text-4xl font-bold text-gray-900 max-w-2xl mx-auto">
+        <div className="inline-block mb-4">
+          <span className="text-black font-medium flex items-center gap-4">
+            {" "}
+            <div className="w-6 h-[2px] bg-orange-500 inline-flex " />
+            OUR TESTIMONIAL
+          </span>
+        </div>
+        <h2 className="heading-2 text-gray-900 max-w-2xl mx-auto">
           See What Our Clients Say: Real Results. Real Impact.
         </h2>
       </div>
 
       <div className="relative">
-        <div ref={sliderRef} className="keen-slider ">
+        <div ref={sliderRef} className="keen-slider min-h-[18rem] pt-4">
           {testimonials.map((testimonial, index) => (
             <div key={testimonial.id} className="keen-slider__slide">
               <div

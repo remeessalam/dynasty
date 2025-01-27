@@ -2,16 +2,14 @@ import Header from "./components/Header";
 import LandingBanner from "./components/LandingBanner";
 import LandingServices from "./components/LandingServices";
 import WhyChooseUs from "../components/WhyChooseUs";
-import Portfolio from "./components/Portfolio";
-// import PartnerUs from "../components/PartnerUs";
 import LandingAbout from "./components/LandingAbout";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import LandingForm from "./components/LandingForm";
 import Footer from "./components/Footer";
-// import FAQSection from "../components/Faq";
 import ContactForm from "../Components/ContactForm";
 import TestimonialSlider from "../Components/TestimonialSlider";
+// eslint-disable-next-line
 const LandingPage = ({ page }) => {
   AOS.init({
     once: true,
@@ -25,10 +23,10 @@ const LandingPage = ({ page }) => {
         <div id="asdf" className=" wrapper mt-5 sm:mt-20 pt-1 rounded-xl">
           <LandingForm />
         </div>
-        <div>
+        <div id="about">
           <LandingAbout page={page} />
         </div>
-        <div className=" mx-auto mt-4 sm:mt-16">
+        <div id="services" className=" mx-auto mt-4 sm:mt-16">
           <LandingServices page={page} />
         </div>
         <div>
@@ -37,17 +35,13 @@ const LandingPage = ({ page }) => {
         {/* <div>
           <Portfolio page={page} />
         </div> */}
-        {/* <div>
-          <PartnerUs />
-        </div> */}
+
         <div>
           <TestimonialSlider />
         </div>
-        {/* <div>
-          <FAQSection />
-        </div> */}
+
         <div
-          id="contact"
+          id="contact-us"
           className="adjustedwidth mx-auto  mt-5 sm:mt-20 pt-1 rounded-xl"
         >
           <ContactForm />

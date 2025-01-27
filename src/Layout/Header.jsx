@@ -66,7 +66,7 @@ const Header = () => {
           {/* Call Us Button */}
           <a
             to="tel:+1234567890"
-            className="md:flex hidden items-center gap-1 bg-primary text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
+            className="md:flex hidden items-center gap-1 bg-primary text-white px-4 py-2 rounded hover:bg-orange-500 transition duration-300"
           >
             <MdPhone />
             Call Us
