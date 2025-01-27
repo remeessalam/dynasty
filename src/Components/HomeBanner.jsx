@@ -6,7 +6,7 @@ const HomeBanner = () => {
     <div>
       <div
         id="banner"
-        className="w-screen min-h-screen relative mt-[9rem] md:mt-0 "
+        className="w-screen min-h-screen relative mt-[5rem] md:mt-0 "
       >
         <ReactPlayer
           url={homeBannerVideo}
