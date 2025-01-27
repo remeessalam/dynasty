@@ -149,6 +149,7 @@ const Header = () => {
               to="services"
               smooth={true}
               duration={500}
+              onClick={toggleMenu}
               offset={-170}
               className="text-gray-600 hover:text-gray-800 cursor-pointer"
             >
