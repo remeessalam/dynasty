@@ -23,10 +23,13 @@ const ContactForm = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="bg-[#FFF5F0] p-8 rounded-lg">
-          <h2 className="text-[#FF6B3D] text-2xl font-bold mb-4">
+          <h2
+            className="text-[#FF6B3D] text-2xl font-bold mb-4"
+            data-aos="fade-right"
+          >
             Get in Touch
           </h2>
-          <p className="text-gray-700 mb-8">
+          <p className="text-gray-700 mb-8" data-aos="fade-right">
             Embark on a Digital Journey with Us. Reach out, and let&apos;s
             transform your ideas into innovative solutions together. Your
             vision, feedback, and goals are the building blocks that shape our
@@ -35,19 +38,28 @@ const ContactForm = () => {
           </p>
 
           <div className="space-y-4 mb-8">
-            <div className="flex items-center text-gray-700">
+            <div
+              className="flex items-center text-gray-700"
+              data-aos="fade-right"
+            >
               <span className="w-6 h-6 flex items-center justify-center mr-3">
                 ✉️
               </span>
               <span>{companyDetails.email}</span>
             </div>
-            <div className="flex items-center text-gray-700">
+            <div
+              className="flex items-center text-gray-700"
+              data-aos="fade-right"
+            >
               <span className="w-6 h-6 flex items-center justify-center mr-3">
                 📞
               </span>
               <span>{companyDetails.phone}</span>
             </div>
-            <div className="flex items-center text-gray-700">
+            <div
+              className="flex items-center text-gray-700"
+              data-aos="fade-right"
+            >
               <span className="w-6 h-6 flex items-center justify-center mr-3">
                 📍
               </span>
@@ -55,7 +67,7 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-4" data-aos="fade-right">
             {[FaYoutube, FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn].map(
               (Icon, index) => (
                 <a
@@ -74,10 +86,16 @@ const ContactForm = () => {
         {/* <ContactForm /> */}
         <div className="p-4">
           <div className="mb-8">
-            <span className="text-[#FF6B3D] uppercase tracking-wider">
+            <span
+              className="text-[#FF6B3D] uppercase tracking-wider"
+              data-aos="fade-left"
+            >
               MESSAGE US
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2">
+            <h2
+              className="text-3xl md:text-4xl font-bold mt-2"
+              data-aos="fade-left"
+            >
               Get in Touch and Let&apos;s Build Something Extraordinary
               Together.
             </h2>
@@ -85,7 +103,7 @@ const ContactForm = () => {
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
-              <div>
+              <div data-aos="fade-left">
                 <input
                   {...register("name", { required: true })}
                   placeholder="Name"
@@ -97,7 +115,7 @@ const ContactForm = () => {
                   </span>
                 )}
               </div>
-              <div>
+              <div data-aos="fade-left">
                 <input
                   {...register("lastName", { required: true })}
                   placeholder="Last Name"
@@ -112,7 +130,7 @@ const ContactForm = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-4">
-              <div>
+              <div data-aos="fade-left">
                 <input
                   {...register("email", {
                     required: true,
@@ -127,7 +145,7 @@ const ContactForm = () => {
                   </span>
                 )}
               </div>
-              <div>
+              <div data-aos="fade-left">
                 <input
                   {...register("phone", { required: true })}
                   placeholder="Phone"
@@ -141,7 +159,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div>
+            <div data-aos="fade-left">
               <input
                 {...register("subject", { required: true })}
                 placeholder="Subject"
@@ -154,7 +172,7 @@ const ContactForm = () => {
               )}
             </div>
 
-            <div>
+            <div data-aos="fade-left">
               <textarea
                 {...register("message", { required: true })}
                 placeholder="Write a message"
@@ -169,6 +187,7 @@ const ContactForm = () => {
             </div>
 
             <button
+              data-aos="fade-up"
               type="submit"
               className="bg-[#FF6B3D] text-white px-6 py-3 rounded-md hover:bg-[#e85d2f] transition-colors"
             >

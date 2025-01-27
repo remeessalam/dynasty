@@ -1,34 +1,21 @@
 // import { useForm } from "react-hook-form";
 import contactusimg from "../assets/image/bannerimages/contactusimg.png";
 import PageBanner from "../Components/PageBanner";
-import {
-  FaYoutube,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedinIn,
-} from "react-icons/fa";
-import { companyDetails } from "../data/constant";
 
 import contactusimage from "../assets/image/contactusimage.png";
 import ContactForm from "../Components/ContactForm";
 const ContactUsPage = () => {
-  // const {
-  //   register,
-  //   handleSubmit,
-  //   formState: { errors },
-  // } = useForm();
-
-  // const onSubmit = (data) => {
-  //   console.log(data);
-  //   // Handle form submission here
-  // };
   return (
     <div>
       <PageBanner page={"contact"} bannerImage={contactusimg} />
       <ContactForm />
-      <div>
+      <div className="relative">
         <img src={contactusimage} alt="" className="w-screen mt-[5rem]" />
+        <div className="absolute w-full h-full top-0 flex md:justify-start justify-center items-center md:text-start text-center  md:pl-[5rem]">
+          <h1 className="heading-1 text-primary">
+            Contact <br /> Us
+          </h1>
+        </div>
       </div>
     </div>
   );

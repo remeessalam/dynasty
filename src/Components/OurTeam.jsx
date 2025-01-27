@@ -50,11 +50,14 @@ export default function TeamSection() {
       <div className="">
         {/* Header */}
         <div className="text-center mb-20 wrapper">
-          <div className="inline-flex flex-col items-center">
+          <div className="inline-flex flex-col items-center" data-aos="fade-up">
             <span className="text-[#E86C2C] font-medium mb-2">OUR TEAM</span>
             <div className="w-12 h-0.5 bg-[#E86C2C]"></div>
           </div>
-          <h2 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-serif text-center max-w-4xl mx-auto leading-tight">
+          <h2
+            data-aos="fade-up"
+            className="mt-8 text-4xl md:text-5xl lg:text-6xl font-serif text-center max-w-4xl mx-auto leading-tight"
+          >
             Driven by Expertise, United by Innovation.
           </h2>
           {/* <div className="flex justify-center gap-2 mt-4">
@@ -72,6 +75,7 @@ export default function TeamSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto ">
             {teamMembers.map((member, index) => (
               <div
+                data-aos="fade-up"
                 key={index}
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >

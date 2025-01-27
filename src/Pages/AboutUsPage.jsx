@@ -20,30 +20,37 @@ const AboutUsPage = () => {
           {/* max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start wrapper">
             {/* Image Section */}
-            <div className=" h-[400px] lg:h-[500px] bg-blue-900 overflow-hidden">
+            <div className=" h-[400px] lg:h-[500px] overflow-hidden">
               <div className="absolute top-20 left-0 w-1/2 -z-10 h-[40%] lg:flex hidden bg-orange-400" />
               <img
                 src={aboutusimage}
                 alt="Future Technology Concept"
                 className="w-full h-full object-cover"
+                data-aos="fade-right"
               />
             </div>
 
             {/* Text Content */}
             <div className="space-y-6 text-gray-700">
               <div>
-                <span className="text-black font-medium flex items-center gap-4">
+                <span
+                  className="text-black font-medium flex items-center gap-4"
+                  data-aos="fade-left"
+                >
                   {" "}
                   <div className="w-6 h-[2px] bg-orange-500 inline-flex " />
                   ABOUT US
                 </span>
-                <h1 className="mt-4 text-4xl sm:text-5xl font-bold leading-tight">
+                <h1
+                  className="mt-4 text-4xl sm:text-5xl font-bold leading-tight"
+                  data-aos="fade-left"
+                >
                   Empowering Your Future with Innovative, Tailored Digital
                   Solutions.
                 </h1>
               </div>
 
-              <p className="leading-relaxed">
+              <p className="leading-relaxed" data-aos="fade-left">
                 At [Your Company Name], we are driven by a passion for
                 innovation and a commitment to excellence. We specialize in
                 providing cutting-edge digital solutions that empower businesses
@@ -54,7 +61,7 @@ const AboutUsPage = () => {
                 impactful results.
               </p>
 
-              <p className="leading-relaxed">
+              <p className="leading-relaxed" data-aos="fade-left">
                 Our team of highly skilled professionals brings a diverse set of
                 expertise to the table, combining technical knowledge with a
                 deep understanding of business needs. Whether you&apos;re a
@@ -68,7 +75,7 @@ const AboutUsPage = () => {
 
           {/* Additional Content */}
           <div className="space-y-6 text-gray-700 wrapper ">
-            <p className="leading-relaxed">
+            <p className="leading-relaxed" data-aos="fade-up">
               We believe in collaboration, transparency, and a customer-first
               approach. Our process is designed to keep you informed and
               involved every step of the way, ensuring that the solutions we
@@ -77,7 +84,7 @@ const AboutUsPage = () => {
               build partnerships that last.
             </p>
 
-            <p className="leading-relaxed">
+            <p className="leading-relaxed" data-aos="fade-up">
               Innovation is at the heart of everything we do. From the first
               concept to deployment and beyond, we are dedicated to providing
               you with solutions that evolve with your business and the
@@ -86,7 +93,7 @@ const AboutUsPage = () => {
               to ensure that we bring the best to our clients.
             </p>
 
-            <p className="leading-relaxed">
+            <p className="leading-relaxed" data-aos="fade-up">
               Ready to take your business to the next level? Let us help you
               unlock the power of technology to achieve your goals. At [Your
               Company Name], we are here to turn your vision into reality with
@@ -96,14 +103,14 @@ const AboutUsPage = () => {
 
           {/* Call to Action Section */}
           <div className="text-center space-y-4 text-gray-600 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-2xl font-semibold" data-aos="fade-up">
               Ready to take your business to new heights?
             </h2>
-            <p className="text-xl">
+            <p className="text-xl" data-aos="fade-up">
               Let&apos;s bring your ideas to life with innovative, user-focused
               technology that makes a difference.
             </p>
-            <p className="text-lg">
+            <p className="text-lg" data-aos="fade-up">
               Contact us today to learn how [Your Company Name] can turn your
               vision into a powerful realit
             </p>
@@ -139,13 +146,19 @@ const AboutUsPage = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               {/* Left Column */}
               <div className="space-y-6">
-                <div className="flex items-center space-x-2">
+                <div
+                  className="flex items-center space-x-2"
+                  data-aos="fade-right"
+                >
                   <div className="w-6 h-[2px] bg-white"></div>
                   <span className="text-white font-medium tracking-wider text-sm">
                     WHY CHOICE US
                   </span>
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl  text-white leading-tight">
+                <h1
+                  className="text-4xl md:text-5xl lg:text-6xl  text-white leading-tight"
+                  data-aos="fade-right"
+                >
                   Choose Us for Innovation, Quality, and Tailored Solutions that
                   Drive Your Success.
                 </h1>
@@ -154,7 +167,10 @@ const AboutUsPage = () => {
               {/* Right Column */}
               <div className="space-y-12">
                 {/* Innovation-Driven */}
-                <div className="flex items-start space-x-6">
+                <div
+                  className="flex items-start space-x-6"
+                  data-aos="fade-left"
+                >
                   <div className="flex-shrink-0">
                     <TbTargetArrow className="w-12 h-12 text-white" />
                   </div>
@@ -168,7 +184,10 @@ const AboutUsPage = () => {
                 </div>
 
                 {/* Uncompromised Quality */}
-                <div className="flex items-start space-x-6">
+                <div
+                  className="flex items-start space-x-6"
+                  data-aos="fade-left"
+                >
                   <div className="flex-shrink-0">
                     <AiOutlineAim className="w-12 h-12 text-white" />
                   </div>
@@ -184,7 +203,10 @@ const AboutUsPage = () => {
                 </div>
 
                 {/* Customer-Focused Approach */}
-                <div className="flex items-start space-x-6">
+                <div
+                  className="flex items-start space-x-6"
+                  data-aos="fade-left"
+                >
                   <div className="flex-shrink-0">
                     <GiDiamondHard className="w-12 h-12 text-white" />
                   </div>

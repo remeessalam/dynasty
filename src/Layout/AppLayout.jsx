@@ -13,7 +13,7 @@ const AppLayout = () => {
   return (
     <div className="max-w-screen overflow-hidden">
       <Header />
-      <div>
+      <div className="md:pt-[7rem]">
         <ScrollToTop />
         <Outlet />
         <Footer />
