@@ -49,7 +49,7 @@ export const allServices = [
     secondImage: aidevelopment2,
     bannerImage: aidevelopmentbanner,
     intro:
-      "Artificial Intelligence (AI) has revolutionized the way businesses operate, and at [Your Company Name], we harness the power of AI to help businesses unlock the full potential of their data. Our AI development services include predictive analytics, natural language processing (NLP), and machine vision, among other advanced technologies. These solutions enable businesses to automate processes, gain deep insights, and make data-driven decisions that improve efficiency and foster growth.",
+      "Artificial Intelligence (AI) has revolutionized the way businesses operate, and at KYRONIS TECHNOLOGY, we harness the power of AI to help businesses unlock the full potential of their data. Our AI development services include predictive analytics, natural language processing (NLP), and machine vision, among other advanced technologies. These solutions enable businesses to automate processes, gain deep insights, and make data-driven decisions that improve efficiency and foster growth.",
     section1: {
       heading: "The Power of AI in Business",
       content:
@@ -69,7 +69,7 @@ export const allServices = [
     ],
     closingSection: {
       intro:
-        "Artificial Intelligence is revolutionizing the way businesses make decisions, interact with customers, and optimize operations. At [Your Company Name], we empower organizations to harness the full potential of AI, providing tailored solutions that drive smarter decision-making, improve efficiency, and enhance customer experiences.",
+        "Artificial Intelligence is revolutionizing the way businesses make decisions, interact with customers, and optimize operations. At KYRONIS TECHNOLOGY, we empower organizations to harness the full potential of AI, providing tailored solutions that drive smarter decision-making, improve efficiency, and enhance customer experiences.",
       features: [
         {
           name: "Predictive Analytics",
@@ -92,7 +92,7 @@ export const allServices = [
     secondImage: vrarSecondImage,
     bannerImage: vrarbannerimage,
     intro:
-      "Virtual Reality (VR) and Augmented Reality (AR) have transformed the way we experience digital content, allowing users to interact with immersive environments in ways never before possible. At [Your Company Name], we specialize in crafting cutting-edge VR and AR solutions that create engaging and memorable experiences for your business, whether it’s for customer engagement, employee training, marketing, or entertainment. These immersive technologies open up new possibilities for interaction, enhancing both the way you operate internally and how you connect with your audience externally.",
+      "Virtual Reality (VR) and Augmented Reality (AR) have transformed the way we experience digital content, allowing users to interact with immersive environments in ways never before possible. At KYRONIS TECHNOLOGY, we specialize in crafting cutting-edge VR and AR solutions that create engaging and memorable experiences for your business, whether it’s for customer engagement, employee training, marketing, or entertainment. These immersive technologies open up new possibilities for interaction, enhancing both the way you operate internally and how you connect with your audience externally.",
     section1: {
       heading: "Understanding VR and AR Technologies",
       content:
@@ -124,7 +124,7 @@ export const allServices = [
             "Tailored VR and AR experiences designed to meet specific business needs.",
         },
       ],
-      cta: "Virtual Reality and Augmented Reality are no longer just technologies of the future—they are essential tools for businesses looking to innovate, engage, and grow. From transforming customer engagement to revolutionizing employee training, VR and AR offer endless possibilities. At [Your Company Name], we are dedicated to creating immersive experiences that deliver real business value. Ready to take your business to new heights with VR and AR? Contact us today, and let’s bring your vision to life.",
+      cta: "Virtual Reality and Augmented Reality are no longer just technologies of the future—they are essential tools for businesses looking to innovate, engage, and grow. From transforming customer engagement to revolutionizing employee training, VR and AR offer endless possibilities. At KYRONIS TECHNOLOGY, we are dedicated to creating immersive experiences that deliver real business value. Ready to take your business to new heights with VR and AR? Contact us today, and let’s bring your vision to life.",
     },
   },
   {
@@ -135,7 +135,7 @@ export const allServices = [
     secondImage: blockchainSecondImage,
     bannerImage: blockchainBannerImage,
     intro:
-      "Blockchain technology has emerged as one of the most transformative innovations of the 21st century. Originally developed to support cryptocurrencies like Bitcoin, its potential has expanded far beyond digital currencies, offering a wide array of benefits across different industries. Today, blockchain is considered a game-changer for business operations, especially in sectors that require secure, transparent, and efficient systems. At [Your Company Name], we specialize in developing cutting-edge blockchain solutions that empower businesses to thrive in an increasingly digital world.",
+      "Blockchain technology has emerged as one of the most transformative innovations of the 21st century. Originally developed to support cryptocurrencies like Bitcoin, its potential has expanded far beyond digital currencies, offering a wide array of benefits across different industries. Today, blockchain is considered a game-changer for business operations, especially in sectors that require secure, transparent, and efficient systems. At KYRONIS TECHNOLOGY, we specialize in developing cutting-edge blockchain solutions that empower businesses to thrive in an increasingly digital world.",
     section1: {
       heading: "Key Benefits of Blockchain",
       content:
@@ -168,7 +168,7 @@ export const allServices = [
             "Blockchain’s decentralized, cryptographic nature significantly reduces the risk of fraud and cyberattacks",
         },
       ],
-      cta: "Virtual Reality and Augmented Reality are no longer just technologies of the future—they are essential tools for businesses looking to innovate, engage, and grow. From transforming customer engagement to revolutionizing employee training, VR and AR offer endless possibilities. At [Your Company Name], we are dedicated to creating immersive experiences that deliver real business value. Ready to take your business to new heights with VR and AR? Contact us today, and let’s bring your vision to life.",
+      cta: "Virtual Reality and Augmented Reality are no longer just technologies of the future—they are essential tools for businesses looking to innovate, engage, and grow. From transforming customer engagement to revolutionizing employee training, VR and AR offer endless possibilities. At KYRONIS TECHNOLOGY, we are dedicated to creating immersive experiences that deliver real business value. Ready to take your business to new heights with VR and AR? Contact us today, and let’s bring your vision to life.",
     },
   },
   {
@@ -388,7 +388,7 @@ export const allServices = [
             "By providing quick, relevant answers, chatbots create a smoother customer experience.",
         },
       ],
-      cta: "Whether you're looking to streamline operations, improve customer interactions, or integrate new technologies, custom software ensures that you have the tools that evolve with your business needs. With its scalability, cost-efficiency, and competitive advantages, custom software is an investment that not only solves today's challenges but also prepares your business for tomorrow's opportunities. At [Your Company Name], we are committed to delivering robust, scalable, and innovative software solutions that empower your business to succeed and stay ahead in an increasingly digital world.",
+      cta: "Whether you're looking to streamline operations, improve customer interactions, or integrate new technologies, custom software ensures that you have the tools that evolve with your business needs. With its scalability, cost-efficiency, and competitive advantages, custom software is an investment that not only solves today's challenges but also prepares your business for tomorrow's opportunities. At KYRONIS TECHNOLOGY, we are committed to delivering robust, scalable, and innovative software solutions that empower your business to succeed and stay ahead in an increasingly digital world.",
     },
   },
 ];
@@ -442,7 +442,7 @@ export const testimonials = [
     id: 1,
     name: "Michelle",
     rating: 4,
-    text: "Security and transparency are now our strengths. With [Your Company Name]'s blockchain solution, we've been able to streamline our supply chain and secure our transactions in a way that's not only manageable. They helped us implement custom smart contracts and set up a decentralized system that works seamlessly.",
+    text: "Security and transparency are now our strengths. With KYRONIS TECHNOLOGY's blockchain solution, we've been able to streamline our supply chain and secure our transactions in a way that's not only manageable. They helped us implement custom smart contracts and set up a decentralized system that works seamlessly.",
     avatar:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
   },
@@ -450,7 +450,7 @@ export const testimonials = [
     id: 2,
     name: "Jonathan",
     rating: 4,
-    text: "They turned our data into a goldmine. [Your Company Name]'s machine learning solution has allowed us to automate and optimize our processes in a way we didn't think was possible. Their team took the time to understand our business, and the results speak for themselves—better accuracy, faster response times, and insights that have really moved the needle for us.",
+    text: "They turned our data into a goldmine. KYRONIS TECHNOLOGY's machine learning solution has allowed us to automate and optimize our processes in a way we didn't think was possible. Their team took the time to understand our business, and the results speak for themselves—better accuracy, faster response times, and insights that have really moved the needle for us.",
     avatar:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
   },
@@ -458,7 +458,7 @@ export const testimonials = [
     id: 3,
     name: "Michelle",
     rating: 4,
-    text: "Transformational is the word! Working with [Your Company Name] has completely changed how we approach our business decisions. Their team provided models that have given us insights we never knew we needed. We've seen a major improvement in our ROI, and our approach now sets us apart in our market.",
+    text: "Transformational is the word! Working with KYRONIS TECHNOLOGY has completely changed how we approach our business decisions. Their team provided models that have given us insights we never knew we needed. We've seen a major improvement in our ROI, and our approach now sets us apart in our market.",
     avatar:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-25%20at%205.12.18%E2%80%AFPM-00mx3B7745z0y23dE0Fh5J1OjTaiIm.png",
   },

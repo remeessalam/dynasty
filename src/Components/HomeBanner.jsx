@@ -48,7 +48,7 @@ const HomeBanner = () => {
               Meets <span className="text-orange-500">Excellence.</span>
             </h1>
             <p className="desc sm:max-w-[50%]">
-              At [Your Company Name], we’re all about creating digital solutions
+              At KYRONIS TECHNOLOGY, we’re all about creating digital solutions
               that are powerful, engaging, and tailored to meet your unique
               business needs. Specializing in the latest tech across AI, VR &
               AR, Blockchain, Machine Learning, Mobile Apps, Chatbots, Games,

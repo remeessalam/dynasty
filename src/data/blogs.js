@@ -26,11 +26,11 @@ export const blogs = [
       "In today’s rapidly evolving digital landscape, businesses are under constant pressure to optimize their operations, enhance customer experiences, and make data-driven decisions. Traditional methods can no longer keep up with the pace and complexity of modern business environments. This is where Artificial Intelligence (AI) steps in as a game-changer.",
     mainContent: [
       "AI isn’t just a buzzword anymore; it’s an integral part of the technological revolution driving business innovation. From predictive analytics to natural language processing (NLP), AI solutions are reshaping industries, automating processes, and creating smarter, more efficient systems that enable businesses to stay competitive.",
-      "At [Your Company Name], we specialize in building custom AI solutions that help businesses unlock the full potential of their data. Let’s take a deeper dive into how AI is revolutionizing business operations and decision-making.",
+      "At KYRONIS TECHNOLOGY, we specialize in building custom AI solutions that help businesses unlock the full potential of their data. Let’s take a deeper dive into how AI is revolutionizing business operations and decision-making.",
       "The cornerstone of any successful business lies in its ability to make informed decisions. AI makes this process smarter and more effective by analyzing vast amounts of data in real-time. Where human decision-making might take time, AI systems can sift through complex data sets and provide actionable insights almost instantaneously.",
     ],
     content:
-      "One of the most significant advantages of AI is its ability to automate repetitive tasks, freeing up human resources to focus on more strategic and creative work. Tasks like data entry, customer support, and inventory management can all be automated through AI systems. This results in faster processes, fewer errors, and significant cost savings. At [Your Company Name], we build AI-driven automation systems that streamline operations across various industries.",
+      "One of the most significant advantages of AI is its ability to automate repetitive tasks, freeing up human resources to focus on more strategic and creative work. Tasks like data entry, customer support, and inventory management can all be automated through AI systems. This results in faster processes, fewer errors, and significant cost savings. At KYRONIS TECHNOLOGY, we build AI-driven automation systems that streamline operations across various industries.",
   },
   {
     id: 2,

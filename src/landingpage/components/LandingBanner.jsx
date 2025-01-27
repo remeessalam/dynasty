@@ -53,8 +53,8 @@ const LandingBanner = ({ page }) => {
               </h1>
               <p className="desc sm:max-w-[50%]">
                 {isWeb
-                  ? "At [Your Company Name], we’re dedicated to crafting exceptional web development solutions that are powerful, engaging, and tailored to meet your unique business needs. Specializing in cutting-edge technologies for responsive websites, web applications, e-commerce platforms, and custom web solutions, we’re here to bring your vision to life and help your business thrive online."
-                  : "At [Your Company Name], we’re focused on creating exceptional app development solutions that are powerful, intuitive, and tailored to meet your unique business needs. Specializing in cutting-edge technologies for mobile apps, cross-platform development, and custom app solutions, we’re here to bring your vision to life and help your business succeed in the mobile-first world."}
+                  ? "At KYRONIS TECHNOLOGY, we’re dedicated to crafting exceptional web development solutions that are powerful, engaging, and tailored to meet your unique business needs. Specializing in cutting-edge technologies for responsive websites, web applications, e-commerce platforms, and custom web solutions, we’re here to bring your vision to life and help your business thrive online."
+                  : "At KYRONIS TECHNOLOGY, we’re focused on creating exceptional app development solutions that are powerful, intuitive, and tailored to meet your unique business needs. Specializing in cutting-edge technologies for mobile apps, cross-platform development, and custom app solutions, we’re here to bring your vision to life and help your business succeed in the mobile-first world."}
               </p>
               <Link
                 to="contact-us"

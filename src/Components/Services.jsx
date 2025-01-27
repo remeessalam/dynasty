@@ -33,7 +33,7 @@ const Services = () => {
         </h1>
 
         <p className="mt-6 max-w-3xl mx-auto text-gray-600" data-aos="fade-up">
-          At [Your Company Name], we offer a comprehensive suite of services
+          At KYRONIS TECHNOLOGY, we offer a comprehensive suite of services
           designed to help businesses harness the power of technology and
           innovation. From transforming data into insights to building immersive
           digital experiences, we deliver solutions that empower your success.

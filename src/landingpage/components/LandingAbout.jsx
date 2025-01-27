@@ -26,8 +26,8 @@ const LandingAbout = ({ page }) => {
 
             <p className="text-gray-600 desc">
               {isWebDevelopment
-                ? "At [Your Company Name], we specialize in creating dynamic, user-friendly web solutions that help businesses thrive in the digital space. We focus on custom web development, responsive design, and scalable applications, ensuring your brand stands out and delivers exceptional experiences online."
-                : "At [Your Company Name], we focus on developing innovative mobile apps that provide seamless experiences on any device. Whether it's iOS or Android, we create mobile solutions that are intuitive, engaging, and built to scale, helping your business reach its full potential in the app-driven world."}
+                ? "At KYRONIS TECHNOLOGY, we specialize in creating dynamic, user-friendly web solutions that help businesses thrive in the digital space. We focus on custom web development, responsive design, and scalable applications, ensuring your brand stands out and delivers exceptional experiences online."
+                : "At KYRONIS TECHNOLOGY, we focus on developing innovative mobile apps that provide seamless experiences on any device. Whether it's iOS or Android, we create mobile solutions that are intuitive, engaging, and built to scale, helping your business reach its full potential in the app-driven world."}
             </p>
           </div>
 

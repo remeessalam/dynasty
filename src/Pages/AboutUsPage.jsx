@@ -51,14 +51,13 @@ const AboutUsPage = () => {
               </div>
 
               <p className="leading-relaxed" data-aos="fade-left">
-                At [Your Company Name], we are driven by a passion for
-                innovation and a commitment to excellence. We specialize in
-                providing cutting-edge digital solutions that empower businesses
-                to thrive in today&apos;s fast-paced technological
-                landscape.From AI-driven systems to immersive VR & AR
-                experiences, blockchain solutions, mobile apps, and custom
-                software, we are your trusted partner in turning bold ideas into
-                impactful results.
+                At KYRONIS TECHNOLOGY, we are driven by a passion for innovation
+                and a commitment to excellence. We specialize in providing
+                cutting-edge digital solutions that empower businesses to thrive
+                in today&apos;s fast-paced technological landscape.From
+                AI-driven systems to immersive VR & AR experiences, blockchain
+                solutions, mobile apps, and custom software, we are your trusted
+                partner in turning bold ideas into impactful results.
               </p>
 
               <p className="leading-relaxed" data-aos="fade-left">
@@ -80,7 +79,7 @@ const AboutUsPage = () => {
               approach. Our process is designed to keep you informed and
               involved every step of the way, ensuring that the solutions we
               deliver are not only innovative but also functional and scalable.
-              At [Your Company Name], we don&apos;t just build technology—we
+              At KYRONIS TECHNOLOGY, we don&apos;t just build technology—we
               build partnerships that last.
             </p>
 
@@ -111,7 +110,7 @@ const AboutUsPage = () => {
               technology that makes a difference.
             </p>
             <p className="text-lg" data-aos="fade-up">
-              Contact us today to learn how [Your Company Name] can turn your
+              Contact us today to learn how KYRONIS TECHNOLOGY can turn your
               vision into a powerful realit
             </p>
           </div>

@@ -63,7 +63,7 @@ const LandingForm = () => {
             <h2 className="heading-2">Get In Touch With Us!</h2>
             <p className="">
               Get in touch with
-              <span className="font-bold"> [Your Company Name], </span> and let
+              <span className="font-bold"> KYRONIS TECHNOLOGY, </span> and let
               us be the catalyst for your digital transformation. Together, we
               can create solutions that align with your vision, helping your
               business reach new heights.

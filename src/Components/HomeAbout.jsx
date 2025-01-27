@@ -25,7 +25,7 @@ const HomeAbout = () => {
           </h2>
 
           <p className="text-gray-600 leading-relaxed" data-aos="fade-right">
-            At [Your Company Name], we combine innovation with technical
+            At KYRONIS TECHNOLOGY, we combine innovation with technical
             excellence to deliver tailored solutions that empower businesses to
             excel in a digital-first world. With expertise spanning AI, VR/AR,
             Blockchain, and custom software, we transform ideas into impactful
