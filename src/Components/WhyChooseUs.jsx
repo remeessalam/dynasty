@@ -15,14 +15,20 @@ const WhyChooseUs = () => {
         <div className="flex flex-col justify-between gap-5">
           <div>
             <div className="inline-block">
-              <span className="text-black font-medium flex items-center gap-4">
+              <span
+                className="text-black font-medium flex items-center gap-4"
+                data-aos="fade-right"
+              >
                 {" "}
                 <div className="w-6 h-[2px] bg-orange-500 inline-flex " />
                 Why Choose Us
               </span>
             </div>
 
-            <h2 className="text-3xl md:text-4xl mt-10 font-bold leading-tight">
+            <h2
+              className="text-3xl md:text-4xl mt-10 font-bold leading-tight"
+              data-aos="fade-right"
+            >
               Choose Us for Innovation, Quality, and Tailored Solutions that
               Drive Your Success.
             </h2>
@@ -31,11 +37,16 @@ const WhyChooseUs = () => {
             src={whychooseimageone}
             alt="whychooseimageone"
             className="mt-5"
+            data-aos="fade-right"
           />
         </div>
         <div className="md:col-span-2 flex flex-col gap-5">
-          <img src={whychooseimagetwo} alt="whychooseimagetwo" />
-          <div>
+          <img
+            src={whychooseimagetwo}
+            alt="whychooseimagetwo"
+            data-aos="fade-left"
+          />
+          <div data-aos="fade-left">
             {whyChooseUs.map((obj) => (
               <div key={obj.id}>
                 <h1 className="text-lg font-semibold">{obj.heading}</h1>

@@ -4,7 +4,10 @@ import { FaHandshakeAngle } from "react-icons/fa6";
 // eslint-disable-next-line
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="bg-[#FFF5EE] p-6 rounded-lg flex flex-col gap-4 md:max-w-sm">
+    <div
+      data-aos="fade-up"
+      className="bg-[#FFF5EE] p-6 rounded-lg flex flex-col gap-4 md:max-w-sm"
+    >
       <div className="flex items-center gap-4">
         {icon === "BiUserCircle" && (
           <BiUserCircle className="min-w-[4rem] h-[5rem] text-[#FF6B35]" />

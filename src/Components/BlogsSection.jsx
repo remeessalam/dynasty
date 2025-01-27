@@ -7,8 +7,13 @@ export default function BlogSection() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
-        <p className="text-sm uppercase tracking-wider mb-4">OUR POST</p>
-        <h2 className="text-3xl md:text-4xl font-bold max-w-2xl mx-auto">
+        <p className="text-sm uppercase tracking-wider mb-4" data-aos="fade-up">
+          OUR POST
+        </p>
+        <h2
+          className="text-3xl md:text-4xl font-bold max-w-2xl mx-auto"
+          data-aos="fade-up"
+        >
           Insights That Inspire: Explore Our Latest Blogs on Innovation and
           Technology.
         </h2>
@@ -18,6 +23,7 @@ export default function BlogSection() {
         {blogs.map((post, index) => (
           <Link
             to={`/blogs/${post.pathname}`}
+            data-aos="fade-up"
             key={index}
             className="flex flex-col bg-white rounded-lg overflow-hidden shadow-lg"
           >
