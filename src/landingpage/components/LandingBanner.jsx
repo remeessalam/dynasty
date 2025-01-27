@@ -10,7 +10,7 @@ const LandingBanner = ({ page }) => {
       <div>
         <div
           id="banner"
-          className="w-screen min-h-screen relative mt-16 md:mt-0"
+          className="w-screen min-h-screen relative mt-[9rem] md:mt-0"
         >
           <ReactPlayer
             url={homeBannerVideo}
