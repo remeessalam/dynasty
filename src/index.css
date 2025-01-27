@@ -10,6 +10,9 @@
   background-color: #ea5d26;
   border-radius: 8px;
 }
+html {
+  overflow-x: hidden;
+}
 * {
   font-family: font-serif;
 }

@@ -9,7 +9,7 @@ const LandingServices = ({ page }) => {
     page === "web" ? webDevelopmentServices : appDevelopmentServices;
 
   return (
-    <div id="services" className="flex justify-center relative">
+    <div id="services" className="flex justify-center relative wrapper">
       <div className="py-10 flex flex-col items-center gap-5 z-10 text-black">
         <div className="w-full text-center">
           <span className="text-black font-medium uppercase flex items-center justify-center w-full gap-4">
