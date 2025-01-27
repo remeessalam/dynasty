@@ -16,7 +16,7 @@ const Header = () => {
       {/* Top Header */}
       <div className="bg-primary py-4">
         <div className="container mx-auto px-4 flex justify-end items-center">
-          <div className="hidden md:flex space-x-4 text-sm text-white">
+          <div className="  flex md:flex-row flex-col items-start md:justify-end   md:space-x-4 text-sm text-white">
             <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdEmail />
               {companyDetails.email}
@@ -39,7 +39,11 @@ const Header = () => {
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800">
             <ScrollLink to="home" smooth={true} duration={500}>
-              Logo
+              <img
+                src={companyDetails.logo}
+                alt="logo"
+                className="h-[4rem] sm:h-[5rem]"
+              />
             </ScrollLink>
           </div>
 
@@ -111,7 +115,7 @@ const Header = () => {
                 ) : (
                   <path
                     fillRule="evenodd"
-                    d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0-2z"
+                    d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
                   />
                 )}
               </svg>
@@ -125,7 +129,8 @@ const Header = () => {
             <Link
               to="/"
               // smooth={true}
-              // duration={500}
+              // duration={500}              onClick={toggleMenu}
+
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Home
@@ -134,6 +139,7 @@ const Header = () => {
               to="about"
               smooth={true}
               duration={500}
+              onClick={toggleMenu}
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               About
@@ -142,6 +148,7 @@ const Header = () => {
               to="contact-us"
               smooth={true}
               duration={500}
+              onClick={toggleMenu}
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Contact

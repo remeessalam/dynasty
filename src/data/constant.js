@@ -31,10 +31,14 @@ import { FaAppStoreIos } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
 import { SiFlutter } from "react-icons/si";
 import { TbDeviceMobileCode } from "react-icons/tb";
+// LOGO
+import logo from "../assets/image/logo/logo.png";
 export const companyDetails = {
-  phone: "+91-XXXXXXXXXX",
+  phone: "+91-9945973151",
   email: "info@sample.com",
-  address: "company address",
+  address:
+    "101, Oxford Towers, 139, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008",
+  logo: logo,
 };
 
 export const allServices = [

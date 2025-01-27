@@ -7,6 +7,7 @@ import blogtwoSecondImage from "../assets/image/blogs/blogtwo-secondimage.png";
 import blogthreeBannerImage from "../assets/image/blogs/blogthree-banner.png";
 import blogthreeMainImage from "../assets/image/blogs/blogthree-mainimage.png";
 import blogthreeSecondImage from "../assets/image/blogs/blogthree-secondimage.png";
+
 export const blogs = [
   {
     id: 1,
