@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="bg-headerColor fixed z-40 w-screen">
       {/* Top Header */}
-      <div className="bg-primary py-4">
+      <div className="bg-primary py-4 md:flex hidden">
         <div className="container mx-auto px-4 flex justify-center md:justify-end items-center">
           {/* <div className="text-sm text-gray-600">Welcome to our website</div> */}
           <div className="  flex md:flex-row flex-col items-start md:justify-end   md:space-x-4 text-sm text-white">
