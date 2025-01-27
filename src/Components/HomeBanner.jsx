@@ -6,7 +6,7 @@ const HomeBanner = () => {
     <div>
       <div
         id="banner"
-        className="w-screen min-h-screen relative mt-[9rem] md:mt-0"
+        className="w-screen min-h-screen relative mt-[9rem] md:mt-0 "
       >
         <ReactPlayer
           url={homeBannerVideo}
@@ -37,7 +37,7 @@ const HomeBanner = () => {
           }}
         />
         <div className="bg-black/50  absolute w-full h-full"></div>
-        <div className="pt-[3rem] sm:wrapper py-5 sm:py-0 flex items-center h-full">
+        <div className="pt-[3rem] sm:wrapper py-5 sm:py-0 flex items-center h-full md:pt-[10rem]">
           <div
             data-aos="fade-up"
             className="relative z-10 px-6 justify-center h-full text-white flex flex-col items-end gap-5 text-end "
