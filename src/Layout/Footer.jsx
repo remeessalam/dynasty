@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#E85D24] text-white py-16 mt-[5rem]">
       <div className="container mx-auto px-4 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8 justify-items-start md:justify-items-center">
           <div className="max-w-sm">
             <div className="text-2xl font-bold text-white mb-5">
               <Link href="/">Logo</Link>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-6 border-b pb-4">
               Help Center
             </h3>
@@ -66,9 +66,9 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div>
+          <div className="w-fit  ">
             <h3 className="text-xl font-bold mb-6 border-b pb-4">
               Contact Info
             </h3>
@@ -88,7 +88,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-6 border-b pb-4">
               Opening Hours
             </h3>
@@ -98,7 +98,7 @@ const Footer = () => {
               <li>Fri - Sat : 08.00 Am - 12.00 Pm</li>
               <li>Sunday : CLOSED</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

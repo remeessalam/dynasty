@@ -14,9 +14,9 @@ const Header = () => {
     <header className="bg-headerColor fixed z-40 w-screen">
       {/* Top Header */}
       <div className="bg-primary py-4">
-        <div className="container mx-auto px-4 flex justify-end items-center">
+        <div className="container mx-auto px-4 flex justify-center md:justify-end items-center">
           {/* <div className="text-sm text-gray-600">Welcome to our website</div> */}
-          <div className="hidden md:flex space-x-4 text-sm text-white">
+          <div className="  flex md:flex-row flex-col items-start md:justify-end   md:space-x-4 text-sm text-white">
             <Link to="#" className="hover:text-primary flex items-center gap-1">
               <MdEmail />
               {companyDetails.email}
@@ -106,37 +106,37 @@ const Header = () => {
             <Link
               to="/"
               className="block py-2 text-gray-600 hover:text-gray-800"
+              onClick={toggleMenu}
             >
               Home
             </Link>
             <Link
-              to="/about"
+              to="/about-us"
               className="block py-2 text-gray-600 hover:text-gray-800"
+              onClick={toggleMenu}
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="/services"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               to="/contact-us"
               className="block py-2 text-gray-600 hover:text-gray-800"
+              onClick={toggleMenu}
             >
               Contact
             </Link>
-            <Link
+            {/* <Link
               to="/blogs"
               className="block py-2 text-gray-600 hover:text-gray-800"
             >
               Blogs
-            </Link>
-            <Link
-              to="tel:+1234567890"
-              className="block py-2 text-blue-500 hover:text-blue-600"
-            >
+            </Link> */}
+            <Link to="tel:+1234567890" className="block py-2 primary-btn w-fit">
               Call Us
             </Link>
           </nav>

@@ -72,7 +72,7 @@ export default function TeamSection() {
           className="bg-current bg-cover py-[5rem]"
           style={{ backgroundImage: `url(${ourteambgimage})` }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto  md:px-0 px-2">
             {teamMembers.map((member, index) => (
               <div
                 data-aos="fade-up"

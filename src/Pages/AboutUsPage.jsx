@@ -12,7 +12,7 @@ const AboutUsPage = () => {
     <>
       <PageBanner page={"About us"} bannerImage={aboutusbannerimage} />
 
-      <section className="relative py-12">
+      <section className="relative py-12 min-h-screen">
         <div className="space-y-12">
           {/* Header Section */}
 
@@ -117,7 +117,7 @@ const AboutUsPage = () => {
           </div>
         </div>
       </section>
-      <section className="flex h-screen items-center justify-center py-12">
+      <section className="flex min-h-screen items-center justify-center py-12">
         <ReactPlayer
           url={aboutusbgvideo}
           loop

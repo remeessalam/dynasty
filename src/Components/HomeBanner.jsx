@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomeBanner = () => {
   return (
     <div>
-      <div id="banner" className="w-screen h-screen relative">
+      <div id="banner" className="w-screen min-h-screen relative mt-16 md:mt-0">
         <ReactPlayer
           url={homeBannerVideo}
           playing
@@ -34,7 +34,7 @@ const HomeBanner = () => {
           }}
         />
         <div className="bg-black/50  absolute w-full h-full"></div>
-        <div className="pt-[3rem] wrapper flex items-center h-full">
+        <div className="pt-[3rem] sm:wrapper py-5 sm:py-0 flex items-center h-full">
           <div
             data-aos="fade-up"
             className="relative z-10 px-6 justify-center h-full text-white flex flex-col items-end gap-5 text-end "
