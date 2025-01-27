@@ -40,7 +40,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dcd3e6;
+  background-color: #f4ccbd;
   position: fixed;
   top: 0;
   left: 0;
@@ -70,7 +70,7 @@ html {
   bottom: 0;
   margin: auto;
   border: 3px solid;
-  border-color: transparent #967bb3 #967bb3;
+  border-color: transparent #ea5d26 #f07443;
   width: 24px;
   height: 24px;
   border-radius: 50%;
