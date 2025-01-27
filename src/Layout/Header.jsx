@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-headerColor">
+    <header className="bg-headerColor fixed z-40 w-screen">
       {/* Top Header */}
       <div className="bg-primary py-4">
         <div className="container mx-auto px-4 flex justify-end items-center">
