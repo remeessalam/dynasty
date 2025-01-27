@@ -122,14 +122,14 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="mt-4 md:hidden">
-            <ScrollLink
-              to="home"
-              smooth={true}
-              duration={500}
+            <Link
+              to="/"
+              // smooth={true}
+              // duration={500}
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Home
-            </ScrollLink>
+            </Link>
             <ScrollLink
               to="about"
               smooth={true}

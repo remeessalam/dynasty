@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const HomeBanner = () => {
   return (
     <div>
-      <div id="banner" className="w-screen min-h-screen relative mt-16 md:mt-0">
+      <div
+        id="banner"
+        className="w-screen min-h-screen relative mt-[10rem] md:mt-0"
+      >
         <ReactPlayer
           url={homeBannerVideo}
           playing
