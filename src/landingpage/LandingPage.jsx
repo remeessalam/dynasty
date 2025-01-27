@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import LandingBanner from "./components/LandingBanner";
 import LandingServices from "./components/LandingServices";
-import WhyChooseUs from "../components/WhyChooseUs";
 import LandingAbout from "./components/LandingAbout";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,6 +8,7 @@ import LandingForm from "./components/LandingForm";
 import Footer from "./components/Footer";
 import ContactForm from "../Components/ContactForm";
 import TestimonialSlider from "../Components/TestimonialSlider";
+import WhyChooseUs from "../Components/WhyChooseUs";
 // eslint-disable-next-line
 const LandingPage = ({ page }) => {
   AOS.init({
