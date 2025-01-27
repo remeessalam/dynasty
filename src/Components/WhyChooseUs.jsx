@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
               <span className="text-black font-medium flex items-center gap-4">
                 {" "}
                 <div className="w-6 h-[2px] bg-orange-500 inline-flex " />
-                ABOUT US
+                Why Choose Us
               </span>
             </div>
 
