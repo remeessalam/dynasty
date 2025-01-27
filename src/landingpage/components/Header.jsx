@@ -140,15 +140,26 @@ const Header = () => {
               smooth={true}
               duration={500}
               onClick={toggleMenu}
+              offset={-170}
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               About
+            </ScrollLink>
+            <ScrollLink
+              to="services"
+              smooth={true}
+              duration={500}
+              offset={-170}
+              className="text-gray-600 hover:text-gray-800 cursor-pointer"
+            >
+              Services
             </ScrollLink>
             <ScrollLink
               to="contact-us"
               smooth={true}
               duration={500}
               onClick={toggleMenu}
+              offset={-200}
               className="block py-2 text-gray-600 hover:text-gray-800 cursor-pointer"
             >
               Contact
