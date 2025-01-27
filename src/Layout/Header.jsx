@@ -40,11 +40,12 @@ const Header = () => {
           <div className="text-2xl font-bold text-gray-800">
             <Link to="/">
               {" "}
-              <img
+              Logo
+              {/* <img
                 src={companyDetails.logo}
                 alt="logo"
                 className="h-[4rem] sm:h-[5rem]"
-              />
+              /> */}
             </Link>
           </div>
 

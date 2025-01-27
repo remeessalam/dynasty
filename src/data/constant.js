@@ -34,10 +34,9 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 // LOGO
 import logo from "../assets/image/logo/logo.png";
 export const companyDetails = {
-  phone: "+91-9945973151",
+  phone: "+91-XXXXXXXXX",
   email: "info@sample.com",
-  address:
-    "101, Oxford Towers, 139, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008",
+  address: "Company address",
   logo: logo,
 };
 

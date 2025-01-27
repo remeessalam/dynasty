@@ -39,11 +39,12 @@ const Header = () => {
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800">
             <ScrollLink to="home" smooth={true} duration={500}>
-              <img
+              {/* <img
                 src={companyDetails.logo}
                 alt="logo"
                 className="h-[4rem] sm:h-[5rem]"
-              />
+              /> */}
+              Logo
             </ScrollLink>
           </div>
 
