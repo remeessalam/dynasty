@@ -10,6 +10,7 @@ const AppLayout = () => {
     once: true,
     duration: 1000,
   });
+  console.log("update");
   return (
     <div className="max-w-screen overflow-hidden">
       <Header />
